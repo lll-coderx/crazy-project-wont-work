@@ -1,0 +1,98 @@
+---
+title: ติดต่อและนัดหมาย
+description: ติดต่อคลินิกนิทราใจ นัดหมายพบจิตแพทย์เรื่องการนอนหลับ ช่องทางโทรศัพท์ LINE อีเมล เวลาทำการ และที่ตั้ง (ข้อมูลตัวอย่าง)
+nav: contact
+crumb: ติดต่อและนัดหมาย
+h1: ติดต่อและนัดหมาย
+lead: นัดหมายล่วงหน้าเพื่อให้ได้เวลาที่สะดวก เจ้าหน้าที่ยินดีตอบคำถามเรื่องบริการ ขั้นตอน และสิ่งที่ควรเตรียม
+---
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">ช่องทางนัดหมาย</span>
+      <h2>เลือกช่องทางที่สะดวกที่สุด</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card contact-card">
+        <span class="icon-badge">{{icon:phone}}</span>
+        <div>
+          <h3>โทรศัพท์</h3>
+          <p><a href="tel:{{PHONE_TEL}}">{{PHONE}}</a></p>
+          <p class="muted">ในเวลาทำการ</p>
+        </div>
+      </div>
+      <div class="card contact-card">
+        <span class="icon-badge">{{icon:chat}}</span>
+        <div>
+          <h3>LINE</h3>
+          <p><strong>{{LINE_ID}}</strong></p>
+          <p class="muted">ส่งข้อความนัดหมายได้ตลอด ตอบกลับในเวลาทำการ</p>
+        </div>
+      </div>
+      <div class="card contact-card">
+        <span class="icon-badge">{{icon:mail}}</span>
+        <div>
+          <h3>อีเมล</h3>
+          <p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+          <p class="muted">เหมาะกับการสอบถามทั่วไป</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="grid grid-2">
+      <div class="card">
+        <span class="icon-badge">{{icon:calendar}}</span>
+        <h3>เวลาทำการ</h3>
+        <dl class="hours">
+          {{hours_rows}}
+        </dl>
+      </div>
+      <div class="card">
+        <span class="icon-badge">{{icon:pin}}</span>
+        <h3>ที่ตั้งคลินิก</h3>
+        <p>{{ADDRESS}}</p>
+        <p class="muted">แผนที่และการเดินทาง: <span class="placeholder">[เพิ่มลิงก์แผนที่]</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">วิธีนัดหมาย</span>
+      <h2>นัดหมายง่าย ๆ ใน 3 ขั้นตอน</h2>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>ติดต่อคลินิก</h3>
+        <p>โทร ส่ง LINE หรืออีเมล บอกชื่อ เบอร์ติดต่อ และปัญหาการนอนคร่าว ๆ ที่ต้องการปรึกษา</p>
+      </li>
+      <li>
+        <h3>เลือกวันเวลา</h3>
+        <p>เจ้าหน้าที่เสนอวันเวลาที่ว่าง คุณเลือกช่วงที่สะดวก และรับคำแนะนำว่าควรเตรียมอะไร</p>
+      </li>
+      <li>
+        <h3>มาพบคุณหมอ</h3>
+        <p>มาก่อนเวลาเล็กน้อย พร้อมรายการยา ผลตรวจที่เกี่ยวข้อง และ <a href="sleep-diary.html">แบบบันทึกการนอน</a> ถ้ามี</p>
+      </li>
+    </ol>
+    <p class="mt-lg"><a class="btn btn-ghost" href="treatment.html#process">ดูขั้นตอนการรับบริการทั้งหมด</a></p>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container narrow">
+    <div class="callout callout-crisis" role="note">
+      {{icon:alert}}
+      <div>
+        <p><strong>คลินิกไม่ใช่บริการฉุกเฉิน</strong></p>
+        <p>หากมีความคิดอยากทำร้ายตัวเองหรือผู้อื่น หรือมีอาการรุนแรงเฉียบพลัน อย่ารอนัดหมาย โทรสายด่วนสุขภาพจิต <a href="tel:1323">1323</a> (ตลอด 24 ชั่วโมง) หรือสายด่วนการแพทย์ฉุกเฉิน <a href="tel:1669">1669</a> หรือไปโรงพยาบาลที่ใกล้ที่สุดทันที</p>
+      </div>
+    </div>
+  </div>
+</section>

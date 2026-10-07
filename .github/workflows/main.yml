@@ -23,16 +23,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Collect site files
-        run: |
-          mkdir _site
-          cp index.html _site/
+      - name: Check site folder
+        run: test -f site/index.html
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: site
 
       - id: deployment
         uses: actions/deploy-pages@v4

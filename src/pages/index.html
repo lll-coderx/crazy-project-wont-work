@@ -1,0 +1,296 @@
+---
+title: หน้าแรก
+description: นิทราใจ คลินิกจิตเวชและการนอนหลับ ให้คำปรึกษาโดยจิตแพทย์ ประเมินและดูแลปัญหานอนไม่หลับ ความเครียด และความผิดปกติของการนอนหลับ ด้วยวิธีที่มีหลักฐานทางการแพทย์รองรับ
+nav: home
+kind: home
+---
+<section class="hero">
+  <div class="stars" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="chip">{{icon:moon}} {{CLINIC_TAGLINE}}</span>
+      <h1>หลับให้ลึก<br>ตื่นให้สดชื่น</h1>
+      <p class="hero-lead">ปัญหาการนอนเกี่ยวพันกับทั้งร่างกาย อารมณ์ และความเครียด {{DOCTOR_SHORT}}จะช่วยหาสาเหตุ แล้วออกแบบแนวทางที่เหมาะกับชีวิตของคุณ ด้วยวิธีที่มีหลักฐานทางการแพทย์รองรับ</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="contact.html">นัดหมายปรึกษา</a>
+        <a class="btn btn-outline-light" href="services.html">ดูบริการของเรา</a>
+      </div>
+      <ul class="hero-points">
+        <li>ประเมินเป็นรายบุคคล</li>
+        <li>รักษาความลับผู้ป่วย</li>
+        <li>ติดตามผลออนไลน์ได้</li>
+      </ul>
+    </div>
+    <div class="hero-side">
+      <svg class="hero-art" viewBox="0 0 520 340" aria-hidden="true" focusable="false">
+        <defs>
+          <radialGradient id="ha-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#8fa0ff" stop-opacity=".5"/>
+            <stop offset="1" stop-color="#8fa0ff" stop-opacity="0"/>
+          </radialGradient>
+          <mask id="ha-cut">
+            <rect width="520" height="340" fill="#fff"/>
+            <circle cx="332" cy="128" r="94" fill="#000"/>
+          </mask>
+        </defs>
+        <circle cx="266" cy="170" r="168" fill="url(#ha-glow)"/>
+        <circle cx="266" cy="172" r="106" fill="#fff1c2" mask="url(#ha-cut)"/>
+        <g fill="#fff">
+          <circle cx="84" cy="120" r="2.2" opacity=".9"/>
+          <circle cx="150" cy="40" r="1.8" opacity=".7"/>
+          <circle cx="446" cy="96" r="2.4" opacity=".9"/>
+          <circle cx="478" cy="236" r="1.8" opacity=".7"/>
+          <circle cx="58" cy="240" r="1.6" opacity=".6"/>
+          <circle cx="392" cy="24" r="1.8" opacity=".8"/>
+          <circle cx="226" cy="18" r="1.4" opacity=".6"/>
+          <circle cx="330" cy="318" r="1.6" opacity=".6"/>
+        </g>
+        <g fill="#fff6d6">
+          <path transform="translate(122 76)" d="M0-11L2.8-2.8 11 0 2.8 2.8 0 11-2.8 2.8-11 0-2.8-2.8Z" opacity=".95"/>
+          <path transform="translate(420 186) scale(.8)" d="M0-11L2.8-2.8 11 0 2.8 2.8 0 11-2.8 2.8-11 0-2.8-2.8Z" opacity=".85"/>
+          <path transform="translate(336 40) scale(.6)" d="M0-11L2.8-2.8 11 0 2.8 2.8 0 11-2.8 2.8-11 0-2.8-2.8Z" opacity=".8"/>
+        </g>
+      </svg>
+      <div class="hero-card">
+        <div class="hero-card-title">{{icon:calendar}} เวลาทำการ</div>
+        <dl>
+          {{hours_rows}}
+        </dl>
+        <a class="hero-card-phone" href="tel:{{PHONE_TEL}}">{{icon:phone}} {{PHONE}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="strip" aria-label="จุดเด่นของการดูแล">
+  <div class="container">
+    <div class="strip-inner">
+      <div class="strip-item">
+        <span class="icon-badge">{{icon:clipboard}}</span>
+        <div>
+          <strong class="strip-title">ประเมินเป็นรายบุคคล</strong>
+          <p>ฟังเรื่องราวของคุณและหาสาเหตุเบื้องหลัง ก่อนวางแผนการดูแล</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <span class="icon-badge">{{icon:chat}}</span>
+        <div>
+          <strong class="strip-title">บำบัดด้วย CBT-I</strong>
+          <p>วิธีที่แนะนำเป็นอันดับแรกสำหรับโรคนอนไม่หลับเรื้อรัง</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <span class="icon-badge">{{icon:pill}}</span>
+        <div>
+          <strong class="strip-title">ใช้ยาเมื่อจำเป็น</strong>
+          <p>เลือกยาอย่างระมัดระวัง และมีแผนลดยาเมื่อถึงเวลา</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <span class="icon-badge">{{icon:video}}</span>
+        <div>
+          <strong class="strip-title">ติดตามผลได้ทุกที่</strong>
+          <p>นัดติดตามผลผ่านวิดีโอคอลได้ สะดวกต่อเนื่อง</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">ปัญหาการนอนที่เราดูแล</span>
+      <h2>นอนไม่หลับ ไม่ได้เป็นแค่เรื่องของเวลา</h2>
+      <p>ปัญหาการนอนแต่ละแบบมีสาเหตุต่างกัน การแยกให้ถูกตั้งแต่ต้นช่วยให้การดูแลตรงจุดและไม่เสียเวลา</p>
+    </div>
+    <div class="grid grid-3">
+      <a class="card" href="conditions.html#insomnia">
+        <span class="icon-badge">{{icon:moon}}</span>
+        <h3>นอนไม่หลับ</h3>
+        <p>หลับยาก ตื่นกลางดึก หรือตื่นเช้าเกินไป จนกระทบการใช้ชีวิตตอนกลางวัน</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+      <a class="card" href="conditions.html#anxiety">
+        <span class="icon-badge">{{icon:wave}}</span>
+        <h3>ความเครียดและความกังวลตอนกลางคืน</h3>
+        <p>หยุดคิดไม่ได้เมื่อหัวถึงหมอน ใจเต้นเร็ว หรือกังวลเรื่องการนอนเสียเอง</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+      <a class="card" href="conditions.html#mood">
+        <span class="icon-badge">{{icon:heart}}</span>
+        <h3>อารมณ์กับการนอน</h3>
+        <p>ตื่นเช้าผิดปกติ หรือนอนมากเกินไป ที่เกิดร่วมกับอารมณ์ซึมเศร้าหรือแปรปรวน</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+      <a class="card" href="conditions.html#rhythm">
+        <span class="icon-badge">{{icon:clock}}</span>
+        <h3>นาฬิกาชีวิตเหลื่อม</h3>
+        <p>ทำงานเป็นกะ เดินทางข้ามเขตเวลา หรือหลับดึกตื่นสายจนใช้ชีวิตลำบาก</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+      <a class="card" href="conditions.html#parasomnia">
+        <span class="icon-badge">{{icon:cloud}}</span>
+        <h3>ฝันร้ายและพฤติกรรมผิดปกติขณะหลับ</h3>
+        <p>ฝันร้ายซ้ำ ๆ ละเมอ หรือขยับตัวรุนแรงตามความฝัน</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+      <a class="card" href="conditions.html#other">
+        <span class="icon-badge">{{icon:wind}}</span>
+        <h3>กรน หยุดหายใจ ขาอยู่ไม่สุข</h3>
+        <p>คัดกรองเบื้องต้นและส่งต่อเพื่อตรวจการนอนหลับเมื่อจำเป็น</p>
+        <span class="card-more">ดูรายละเอียด {{icon:arrow}}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">แนวทางของเรา</span>
+      <h2>เข้าใจปัญหาก่อน แล้วค่อยเลือกวิธี</h2>
+      <p>เราไม่เริ่มจากยาเป็นอันดับแรกเสมอไป แต่เริ่มจากการเข้าใจว่าทำไมคุณถึงนอนไม่หลับ</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>ประเมิน</h3>
+        <p>พูดคุยเรื่องการนอน อารมณ์ ยาที่ใช้ และกิจวัตรประจำวัน อาจให้บันทึกการนอนสัปดาห์ถึงสองสัปดาห์เพื่อเห็นภาพที่ชัดขึ้น</p>
+      </li>
+      <li>
+        <h3>วางแผน</h3>
+        <p>เลือกวิธีที่เหมาะกับคุณ เช่น การบำบัด CBT-I การปรับนิสัยการนอน และการใช้ยาเมื่อจำเป็น พร้อมอธิบายเหตุผลทุกขั้นตอน</p>
+      </li>
+      <li>
+        <h3>ติดตามผล</h3>
+        <p>ปรับแผนตามผลที่เกิดขึ้นจริง ลดการพึ่งพายา และวางแนวทางป้องกันไม่ให้กลับมานอนไม่หลับอีก</p>
+      </li>
+    </ol>
+    <p class="mt-lg"><a class="btn btn-primary" href="treatment.html">ดูแนวทางการรักษา</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <figure class="portrait">
+      <svg viewBox="0 0 400 400" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <radialGradient id="po-glow" cx="50%" cy="38%" r="55%">
+            <stop offset="0" stop-color="#6f82ff" stop-opacity=".5"/>
+            <stop offset="1" stop-color="#6f82ff" stop-opacity="0"/>
+          </radialGradient>
+          <mask id="po-cut">
+            <rect width="400" height="400" fill="#fff"/>
+            <circle cx="236" cy="118" r="62" fill="#000"/>
+          </mask>
+        </defs>
+        <rect width="400" height="400" fill="url(#po-glow)"/>
+        <circle cx="196" cy="150" r="72" fill="#fff1c2" mask="url(#po-cut)"/>
+        <g fill="#fff">
+          <circle cx="70" cy="80" r="2" opacity=".9"/>
+          <circle cx="330" cy="70" r="2.4" opacity=".9"/>
+          <circle cx="352" cy="190" r="1.6" opacity=".7"/>
+          <circle cx="48" cy="200" r="1.6" opacity=".6"/>
+          <circle cx="250" cy="36" r="1.5" opacity=".7"/>
+        </g>
+        <path d="M0 292C70 262 140 272 210 290 280 308 340 280 400 292V400H0Z" fill="#232d78"/>
+        <path d="M0 336C80 314 170 340 250 330 320 322 360 316 400 326V400H0Z" fill="#161e56"/>
+      </svg>
+      <figcaption><strong>{{DOCTOR}}</strong><span>{{DOCTOR_ROLE}}</span></figcaption>
+    </figure>
+    <div>
+      <span class="eyebrow">เกี่ยวกับคุณหมอ</span>
+      <h2>จิตแพทย์ที่เข้าใจทั้งใจและการนอน</h2>
+      <p>{{DOCTOR_SHORT}}เป็นจิตแพทย์ผู้ใหญ่ที่สนใจเป็นพิเศษด้านโรคนอนไม่หลับและความผิดปกติของการนอนหลับ การดูแลเริ่มจากการฟัง ทำความเข้าใจว่าปัญหาเกิดขึ้นได้อย่างไร แล้วเลือกวิธีที่ปลอดภัยและเหมาะกับชีวิตของแต่ละคน</p>
+      <ul class="facts">
+        <li>{{icon:user}} <span>ดูแลผู้ใหญ่ อายุ 18 ปีขึ้นไป</span></li>
+        <li>{{icon:shield}} <span>ข้อมูลการรักษาเป็นความลับ</span></li>
+        <li>{{icon:video}} <span>ติดตามผลได้ทั้งพบหน้าและออนไลน์</span></li>
+      </ul>
+      <a class="btn btn-ghost" href="about.html">อ่านประวัติและแนวคิดการดูแล</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">ใครควรมาพบแพทย์</span>
+      <h2>ถ้าคุณมีอาการเหล่านี้ ลองปรึกษาแพทย์</h2>
+      <p>การนอนไม่หลับชั่วคราวจากเรื่องเครียดเป็นเรื่องปกติ แต่ถ้าเป็นต่อเนื่องหรือกระทบชีวิต ไม่ต้องรอให้ทนไม่ไหวก่อน</p>
+    </div>
+    <div class="card">
+      <ul class="checklist two-col">
+        <li>หลับยากหรือตื่นกลางดึกบ่อย อย่างน้อยสัปดาห์ละ 3 คืน นานหลายสัปดาห์</li>
+        <li>ง่วงหรือเพลียมากตอนกลางวัน จนทำงานหรือขับรถลำบาก</li>
+        <li>กังวลเรื่องการนอนจนกลัวถึงเวลาเข้านอน</li>
+        <li>ต้องพึ่งยานอนหลับหรือแอลกอฮอล์เพื่อให้หลับ</li>
+        <li>ฝันร้ายบ่อย หรือมีการพูด เคลื่อนไหว ละเมอขณะหลับ</li>
+        <li>นอนกรนดังร่วมกับสะดุ้งตื่น หรือมีคนสังเกตว่าหยุดหายใจเป็นช่วง ๆ</li>
+        <li>รู้สึกซึมเศร้า หงุดหงิด หรือวิตกกังวลร่วมกับการนอนที่แย่ลง</li>
+        <li>เคยลองปรับตัวเองแล้วแต่ไม่ดีขึ้น</li>
+      </ul>
+    </div>
+    <div class="callout callout-crisis" role="note">
+      {{icon:alert}}
+      <div><strong>หากมีความคิดอยากทำร้ายตัวเองหรือผู้อื่น</strong> อย่ารอนัดหมาย โทรสายด่วนสุขภาพจิต <a href="tel:1323">1323</a> (ตลอด 24 ชั่วโมง) หรือ <a href="tel:1669">1669</a> หรือไปโรงพยาบาลที่ใกล้ที่สุดทันที</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">บทความและความรู้</span>
+      <h2>ความรู้เรื่องการนอน ที่เข้าใจง่าย</h2>
+      <p>เรียบเรียงจากความรู้ทั่วไปด้านเวชศาสตร์การนอนหลับ อ่านก่อนมาพบแพทย์ก็ได้</p>
+    </div>
+    <div class="grid grid-3">
+      <a class="card" href="article-sleep-habits.html">
+        <span class="icon-badge">{{icon:book}}</span>
+        <h3>10 นิสัยที่ช่วยให้หลับดีขึ้น</h3>
+        <p>นิสัยพื้นฐานที่ปรับได้ตั้งแต่คืนนี้ ตั้งแต่เวลาตื่นไปจนถึงกาแฟและห้องนอน</p>
+        <div class="card-meta">อ่านประมาณ 6 นาที</div>
+      </a>
+      <a class="card" href="article-when-to-see-doctor.html">
+        <span class="icon-badge">{{icon:book}}</span>
+        <h3>นอนไม่หลับแบบไหน ควรพบแพทย์</h3>
+        <p>แยกให้ออกระหว่างนอนไม่หลับชั่วคราว กับโรคนอนไม่หลับเรื้อรัง และสัญญาณที่ไม่ควรรอ</p>
+        <div class="card-meta">อ่านประมาณ 5 นาที</div>
+      </a>
+      <a class="card" href="article-cbt-i.html">
+        <span class="icon-badge">{{icon:book}}</span>
+        <h3>CBT-I คืออะไร</h3>
+        <p>ทำความรู้จักการบำบัดที่แนะนำเป็นอันดับแรกสำหรับโรคนอนไม่หลับเรื้อรัง</p>
+        <div class="card-meta">อ่านประมาณ 6 นาที</div>
+      </a>
+    </div>
+    <p class="mt-lg"><a class="btn btn-ghost" href="articles.html">ดูบทความทั้งหมด</a></p>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container narrow">
+    <div class="section-head">
+      <span class="eyebrow">คำถามที่พบบ่อย</span>
+      <h2>ข้อสงสัยที่หลายคนถามก่อนมาพบแพทย์</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>ต้องนอนวันละกี่ชั่วโมงถึงจะพอ</summary>
+        <div class="answer"><p>ผู้ใหญ่ส่วนใหญ่ต้องการนอนประมาณ 7–9 ชั่วโมงต่อคืน ทั้งนี้แต่ละคนไม่เท่ากัน ตัวชี้วัดที่ดีกว่าตัวเลขคือ ตื่นมาแล้วรู้สึกสดชื่นพอและตอนกลางวันไม่ง่วงจนกระทบการใช้ชีวิตหรือไม่</p></div>
+      </details>
+      <details>
+        <summary>นอนไม่หลับแบบไหนถึงควรไปพบแพทย์</summary>
+        <div class="answer"><p>ถ้าหลับยากหรือตื่นกลางดึกบ่อย อย่างน้อยสัปดาห์ละ 3 คืน นานต่อเนื่องราว 3 เดือน จะเข้าข่ายโรคนอนไม่หลับเรื้อรัง แต่ไม่จำเป็นต้องรอครบ 3 เดือนหากคุณทุกข์ใจมาก หรือมีผลต่อการทำงาน อารมณ์ และความปลอดภัย เช่น ง่วงขณะขับรถ</p></div>
+      </details>
+      <details>
+        <summary>ต้องกินยานอนหลับไหม</summary>
+        <div class="answer"><p>ไม่เสมอไป สำหรับโรคนอนไม่หลับเรื้อรังในผู้ใหญ่ การบำบัด CBT-I เป็นแนวทางที่แนะนำเป็นอันดับแรก ยาอาจใช้เป็นตัวช่วยระยะสั้นในบางสถานการณ์ โดยแพทย์จะประเมินความเหมาะสมเป็นรายบุคคล</p></div>
+      </details>
+    </div>
+    <p class="mt-lg"><a class="btn btn-ghost" href="faq.html">ดูคำถามทั้งหมด</a></p>
+  </div>
+</section>
+
+{{cta}}
